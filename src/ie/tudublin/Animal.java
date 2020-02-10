@@ -22,4 +22,14 @@ public class Animal
     {
         this.name=name; 
     }
+
+    public void speak()
+    {
+        System.out.println("I Can't Speak");
+    }
+    //this gets called automatically 
+    public String toString()
+    {
+        return getName();
+    }
 }
